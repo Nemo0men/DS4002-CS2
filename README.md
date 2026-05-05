@@ -68,9 +68,7 @@ CS3_FloodDetection/
 │
 ├── output/
 │
-└── Materials/
-    ├── [explainer_article].pdf           # Blog post / explainer to get you started
-    └── [technical_article].pdf           # Technical reference article
+└── Materials/ #Blog posts that explain each architecture
 ```
 
 ---
@@ -93,7 +91,7 @@ Once downloaded, place the dataset so that your notebook can access the image an
 
 1. **Download the dataset** using the link in `data/data.md` and place it in your working directory.
 2. **Install the required packages** listed above.
-3. **Run the EDA notebook** (`scripts/DS4002_EDA_Proj3.ipynb`) to explore the data and understand the class distribution before modeling.
+3. **Run the notebooks** (`scripts/`) to explore the data and understand the class distribution before modeling.
 4. **Run a model notebook** of your choice from the `scripts/` folder. Each notebook is self-contained and includes all preprocessing, training, and evaluation steps. Start with `unet_exp1-4_flood_detection.ipynb` if you are new to segmentation.
 5. **Check your outputs** against the plots in the `output/` folder to verify your results match.
 
@@ -103,15 +101,7 @@ Once downloaded, place the dataset so that your notebook can access the image an
 
 ## Reference Materials
 
-Two reference articles are provided in the `Materials/` folder to help you get started:
-
-- An **explainer article** covering the intuition behind semantic segmentation and U-Net architecture — read this before you write any code.
-- A **technical article** providing deeper background on the FloodNet dataset and disaster scene understanding.
+Three reference articles are provided in the `Materials/` folder
 
 All full citations are in [`REFERENCES.md`](./REFERENCES.md).
 
----
-
-## Acknowledgements
-
-This case study was created by Nehemiah Kim (DS 4002, Spring 2026), based on original research conducted with Sara Altarazi, Albert Kang, and Michael Barry. Dataset credit: Rahnemoonfar et al. (2020), FloodNet.
